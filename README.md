@@ -8,8 +8,8 @@ notification = builder.setContentTitle("Bildirim Başlığı")
                 .setContentText("Bildirim İçeriği")
                 .setTicker("Yeni mesajınız var!")
                 .setSmallIcon(R.mipmap.ic_launcher)
-                .build();```
-
+                .build();
+```
 Servisi uygulamaya dahil etmek için MainActivity.java dosyamıza şu satırları ekliyoruz:
 ```sh
 notificationManager =
